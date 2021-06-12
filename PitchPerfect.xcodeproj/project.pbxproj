@@ -14,6 +14,7 @@
 		C6375FD7267457C4003C5637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6375FD5267457C4003C5637 /* LaunchScreen.storyboard */; };
 		C6375FE126747452003C5637 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6375FE026747452003C5637 /* RecordSoundViewController.swift */; };
 		C6C61E2E2674872F007F5597 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C61E2D2674872F007F5597 /* PlaySoundViewController.swift */; };
+		C6D5A9EB267498B1000B77BE /* PlaySoundViewController + Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D5A9EA267498B1000B77BE /* PlaySoundViewController + Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C6375FD8267457C4003C5637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6375FE026747452003C5637 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
 		C6C61E2D2674872F007F5597 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
+		C6D5A9EA267498B1000B77BE /* PlaySoundViewController + Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundViewController + Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				C6375FE026747452003C5637 /* RecordSoundViewController.swift */,
 				C6375FD8267457C4003C5637 /* Info.plist */,
 				C6C61E2D2674872F007F5597 /* PlaySoundViewController.swift */,
+				C6D5A9EA267498B1000B77BE /* PlaySoundViewController + Audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				C6375FE126747452003C5637 /* RecordSoundViewController.swift in Sources */,
 				C6375FCB267457B9003C5637 /* AppDelegate.swift in Sources */,
 				C6C61E2E2674872F007F5597 /* PlaySoundViewController.swift in Sources */,
+				C6D5A9EB267498B1000B77BE /* PlaySoundViewController + Audio.swift in Sources */,
 				C6375FCD267457B9003C5637 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

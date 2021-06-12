@@ -168,7 +168,7 @@
                         <outlet property="reverbButton" destination="rBb-q5-6gg" id="sel-Vx-lf9"/>
                         <outlet property="snailButton" destination="DB9-Td-dje" id="Hh6-QH-E9s"/>
                         <outlet property="stopButton" destination="flR-Zi-4xE" id="AUn-Lb-hiy"/>
-                        <outlet property="vaderPitchButton" destination="mLf-h4-WMe" id="CMB-Rc-WnJ"/>
+                        <outlet property="vaderButton" destination="mLf-h4-WMe" id="zam-eS-gNh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iCe-6o-1wA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
