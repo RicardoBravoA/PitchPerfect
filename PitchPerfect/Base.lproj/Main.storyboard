@@ -85,7 +85,7 @@
                                                     <action selector="playSoundFromButton:" destination="WJY-eD-Oc4" eventType="touchUpInside" id="KHc-f1-wDQ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WG-8M-QsV" userLabel="Rabbit Button">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WG-8M-QsV" userLabel="Rabbit Button">
                                                 <rect key="frame" x="207" y="0.0" width="207" height="231.5"/>
                                                 <state key="normal" image="Fast"/>
                                                 <connections>
@@ -97,14 +97,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Kn1-id-8Zz">
                                         <rect key="frame" x="0.0" y="231.5" width="414" height="231"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akR-2S-LtY" userLabel="Chipmunk Button">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akR-2S-LtY" userLabel="Chipmunk Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="231"/>
                                                 <state key="normal" image="HighPitch"/>
                                                 <connections>
                                                     <action selector="playSoundFromButton:" destination="WJY-eD-Oc4" eventType="touchUpInside" id="ZNA-KU-8AH"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLf-h4-WMe" userLabel="Vader Button">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLf-h4-WMe" userLabel="Vader Button">
                                                 <rect key="frame" x="207" y="0.0" width="207" height="231"/>
                                                 <state key="normal" image="LowPitch"/>
                                                 <connections>
@@ -116,14 +116,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WCb-ra-kfj">
                                         <rect key="frame" x="0.0" y="462.5" width="414" height="231.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUa-Fb-1t4" userLabel="Echo Button">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUa-Fb-1t4" userLabel="Echo Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="231.5"/>
                                                 <state key="normal" image="Echo"/>
                                                 <connections>
                                                     <action selector="playSoundFromButton:" destination="WJY-eD-Oc4" eventType="touchUpInside" id="AfV-pW-FJP"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBb-q5-6gg" userLabel="Reverb Button">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBb-q5-6gg" userLabel="Reverb Button">
                                                 <rect key="frame" x="207" y="0.0" width="207" height="231.5"/>
                                                 <state key="normal" image="Reverb"/>
                                                 <connections>
@@ -168,7 +168,7 @@
                         <outlet property="reverbButton" destination="rBb-q5-6gg" id="sel-Vx-lf9"/>
                         <outlet property="snailButton" destination="DB9-Td-dje" id="Hh6-QH-E9s"/>
                         <outlet property="stopButton" destination="flR-Zi-4xE" id="AUn-Lb-hiy"/>
-                        <outlet property="vaderPitchButton" destination="mLf-h4-WMe" id="CMB-Rc-WnJ"/>
+                        <outlet property="vaderButton" destination="mLf-h4-WMe" id="zam-eS-gNh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iCe-6o-1wA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
