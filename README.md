@@ -12,9 +12,10 @@ Download the project from [Github](https://github.com/RicardoBravoA/PitchPerfect
 The project has this features.
 
 <p align="center">
-  <img src="image/image-1.png" alt="gif" width="276" height="597"/><br>
-  <img src="image/image-2.png" alt="gif" width="276" height="597"/><br>
-  <img src="image/image-3.png" alt="gif" width="597" height="276"/><br>
+  <img src="image/1.png" alt="gif" width="276" height="597"/><br><br>
+  <img src="image/2.png" alt="gif" width="276" height="597"/><br><br>
+  <img src="image/3.png" alt="gif" width="276" height="597"/><br><br>
+  <img src="image/4.png" alt="gif" width="597" height="276"/><br>
 </p>
 
 - Main
